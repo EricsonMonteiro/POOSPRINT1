@@ -10,7 +10,7 @@ public class Alumni extends Estudante{
         super(userName, email, nome, alcunha, password, visivel, codigo, curso, anomatricula, anocurso, vidaEstudante);
         this.trabalho =trabalho;
         this.funcao =funcao;
-        this.email = email;
+        this.email =email;
     }
 
 
