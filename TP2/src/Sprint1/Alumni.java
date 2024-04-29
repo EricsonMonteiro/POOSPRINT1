@@ -9,7 +9,7 @@ public class Alumni extends Estudante{
     public Alumni(String userName, String email, String nome, String alcunha, double password, boolean visivel, int codigo, String curso, int anomatricula, int anocurso, String vidaEstudante, String trabalho, String funcao, String email1) {
         super(userName, email, nome, alcunha, password, visivel, codigo, curso, anomatricula, anocurso, vidaEstudante);
         this.trabalho =trabalho;
-        this.funcao = funcao;
+        this.funcao =funcao;
         this.email = email;
     }
 
