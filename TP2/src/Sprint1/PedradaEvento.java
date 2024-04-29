@@ -1,6 +1,7 @@
 package Sprint1;
 
 import java.time.LocalDateTime;
+import java.util.List;
 
 public class PedradaEvento extends Pedrada{
     TipoEvento tipo;
@@ -10,8 +11,8 @@ public class PedradaEvento extends Pedrada{
     private String status;
 
 
-    public PedradaEvento(String username, TipoEvento tipo, LocalDateTime data, String local, String entrada, String status) {
-        super(username);
+    public PedradaEvento(String username, long carimbotempo, int gostos, List<Comentario> comentarios, TipoEvento tipo, LocalDateTime data, String local, String entrada, String status) {
+        super(username, carimbotempo, gostos, comentarios);
         this.tipo = tipo;
         this.data = data;
         this.local = local;

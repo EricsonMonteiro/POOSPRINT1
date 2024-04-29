@@ -9,16 +9,11 @@ public class PedradaDigital {
         ArrayList<Grupo> grupos = new ArrayList<>();
         ArrayList<Evento> eventos = new ArrayList<>();
 
-
+        grupos.add(new Grupo(7, 10/24, "Ativo"));
+        eventos.add(new Evento(3, "JOÃO", "Festa"));
         Estudante estudante = new Estudante("estudante1", "estudante1@example.com", "Estudante", "Sobrenome",
                 445566, true, 20220098, "Engenharia", 2021, 2, "....");
 
-
-
-
-
-        grupos.add(new Grupo(7, 10/24, "Ativo"));
-        eventos.add(new Evento(3, "JOÃO", "Festa"));
 
         System.out.println("Informações sobre os grupos:");
         for (Grupo grupo : grupos) {

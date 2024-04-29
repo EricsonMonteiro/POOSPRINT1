@@ -3,7 +3,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Riola {
-    private List<Pedrada> pedradas;
+    private ArrayList<Pedrada> pedradas;
 
 
 

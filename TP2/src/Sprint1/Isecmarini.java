@@ -3,8 +3,8 @@ package Sprint1;
 import java.util.List;
 
 public abstract class Isecmarini implements MembroRede {
-    String userName,email,nome ,alcunha ;
-    double password;
+    private String userName,email,nome ,alcunha ;
+    private double password;
 
     List<Isecmarini> marins;
 

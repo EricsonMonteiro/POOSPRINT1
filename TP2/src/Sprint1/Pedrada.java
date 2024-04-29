@@ -3,21 +3,19 @@ package Sprint1;
 import java.util.ArrayList;
 import java.util.List;
 
-abstract class Pedrada {
-int id;
-String username;
-long carimbotempo;
-int gostos;
+public abstract class Pedrada {
+private static int id;
+private String username;
+private long carimbotempo;
+private int gostos;
 private List<Comentario> comentarios;
 
 
-
-public Pedrada(String username) {
-        this.id = id;
+    public Pedrada(String username, long carimbotempo, int gostos, List<Comentario> comentarios) {
         this.username = username;
         this.carimbotempo = carimbotempo;
         this.gostos = gostos;
-        this.comentarios = new ArrayList<>(); // Initialize the comentarios array with size 10
+        this.comentarios = comentarios;
     }
 
     public int getId() {
