@@ -16,7 +16,7 @@ private List<Comentario> comentarios;
         this.username = username;
         this.carimbotempo = carimbotempo;
         this.gostos = gostos;
-        this.comentarios =comentarios;
+        this.comentarios = comentarios;
     }
 
     public int getId() {
