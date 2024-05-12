@@ -59,20 +59,20 @@ public class novoPerfil extends JFrame {
 
         JPanel imgPerfil= new JPanel();
         imgPerfil.setLayout(new GridBagLayout());
-        GridBagConstraints im = new GridBagConstraints();
+        GridBagConstraints nhaimagem = new GridBagConstraints();
 
-        im.gridx = 0;
-        im.gridy = 0;
-        im.gridwidth = GridBagConstraints.REMAINDER;
-        im.anchor = GridBagConstraints.CENTER;
-        im.insets = new Insets(10, 10, 10, 50);
+        nhaimagem.gridx = 0;
+        nhaimagem.gridy = 0;
+        nhaimagem.gridwidth = GridBagConstraints.REMAINDER;
+        nhaimagem.anchor = GridBagConstraints.CENTER;
+        nhaimagem.insets = new Insets(10, 10, 10, 50);
         JButton selecionar= new JButton("Selecionar Foto");
-        imgPerfil.add(selecionar, im);
+        imgPerfil.add(selecionar, nhaimagem);
         JLabel icon=new JLabel(new ImageIcon("icon.png"));
         icon.setPreferredSize(new Dimension(200,200));
         icon.setOpaque(true);
-        im.gridy=1;
-        imgPerfil.add(icon,im);
+        nhaimagem.gridy=1;
+        imgPerfil.add(icon,nhaimagem);
 
         JanelacriarPerfil.setVisible(true);
         JanelacriarPerfil.setSize(800,650);
@@ -81,9 +81,6 @@ public class novoPerfil extends JFrame {
         JanelacriarPerfil.add(form,BorderLayout.CENTER);
         JanelacriarPerfil.add(imgPerfil, BorderLayout.EAST);
         JanelacriarPerfil.add(containerButton, BorderLayout.SOUTH);
-
-
-
 
 
     }
