@@ -23,6 +23,7 @@ public class PedradaDigital {
             janela.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
             janela.setLayout(new java.awt.BorderLayout());
+            
 
             JLabel titulo = new JLabel("Rede Social- PedradaDigital", JLabel.CENTER);
             titulo.setOpaque(true);

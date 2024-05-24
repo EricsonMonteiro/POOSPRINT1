@@ -1,0 +1,2 @@
+public class BaseDados {
+}
